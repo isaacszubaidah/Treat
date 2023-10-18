@@ -31,3 +31,21 @@ img{
 #sec1{
     grid-column: 2;
 }
+.nav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+   
+
+}
+ .nav a {
+    margin: 1rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+ }
+
+ .nav a:hover {
+    color: aqua;
+ }
