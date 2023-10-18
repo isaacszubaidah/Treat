@@ -1,0 +1,111 @@
+body{
+    background-color: rgb(209, 77, 104);
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+   
+
+}
+ .nav a {
+    margin: 1rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+ }
+
+ .nav a:hover {
+    color: aqua;
+ }
+ .sec1{
+    background-color: pink;
+}
+.sec1{
+     font-size: x-large;
+     text-align: left;
+ }
+ .sec1::first-letter{
+    font-size: 200%;
+    color: aliceblue;
+ }
+ /* .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+ } */
+ .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+ }
+
+ #img1{
+    grid-column: 4;
+    grid-row: span 2;
+ }
+
+ 
+
+.container #img1{
+    width: 400px;
+    border-radius: 900px;
+    padding: 10%;
+    background-color: pink;
+ 
+   
+  
+}
+figure #img2{
+    width: 200px;
+    height: 200px;
+    border-radius: 900px;
+    grid-column: 2;
+    grid-row: 2;
+    
+}
+
+
+figure #img3{
+    width: 200px;
+    height: 200px;
+    border-radius: 900px;
+    grid-column: 3;
+    grid-row: 2;
+    
+}
+.img {
+    width: 200px;
+    border-radius: 100%;
+}
+
+.img2 {
+    width: 200px;
+    height: 210px;
+    border-radius: 100%;
+}
+
+ 
+.sec1 p{
+    
+    color: aliceblue;
+    text-align: left;
+}
+.div #p{
+    background-color: pink;
+
+ }
+ .ourProducts {
+    grid-column: 2;
+    grid-row: 1;
+    font-size: larger;
+ }
+
+ #img4 {
+    grid-column: 2;
+    grid-row: 2; 
+ }
+ h3{
+    color: aliceblue;
+ }
