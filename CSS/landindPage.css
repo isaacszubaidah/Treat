@@ -1,12 +1,13 @@
 
 
 body{
-    background-color: rgb(244, 150, 197);
+    background-color:rgb(222, 76, 105);
 }
 table
 td{font-weight: bold;
     color: aliceblue;
     text-align: center;
+    background-color: pink;
 
 }
 h2{
@@ -43,5 +44,5 @@ img{
  .nav a:hover {
     color: aqua;
  }
- 
+
 
