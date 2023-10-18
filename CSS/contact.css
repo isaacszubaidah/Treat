@@ -1,0 +1,43 @@
+.nav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.nav a {
+    margin: 1rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+ }
+
+ .nav a:hover {
+    color: aqua;
+ }
+ #form{
+    text-align: center;
+ }
+ body{
+    background-color: rgb(222, 76, 105);
+ }
+ #input{
+    padding: 10px;
+    border-radius: 9px;
+ }
+ #text{
+    background-color: pink;
+ }
+ #text{
+    padding: 10px;
+    border-radius: 9px;
+ }
+ h3{
+    color: aliceblue;
+ }
+ .paragraph{
+    font-size: large;
+    color: aliceblue;
+ }
+ h2{
+    color: aliceblue;
+ }
