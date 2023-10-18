@@ -1,12 +1,14 @@
 h4{
-    color: #fb0421;
+    color:aliceblue;
     text-align: center;
+    background-color:pink;
 }
 body{
-    background-color: whitesmoke;
+    background-color: rgb(222, 76, 105);
 }
 h2{
-    color: darkcyan;
+    color:rgb(210, 51, 51);
+    background-color: ;
 }
 img{
     width: 250px;
