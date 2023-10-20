@@ -109,3 +109,10 @@ figure #img3{
  h3{
     color: aliceblue;
  }
+ /* media qeuries */
+@media screen and (max-width:700px) {
+    body{
+        background-color: blueviolet;
+    }
+    
+}
