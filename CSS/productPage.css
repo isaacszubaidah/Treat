@@ -117,3 +117,13 @@ figure #img3{
     }
     
 }
+@media screen and (min-width:380px) {
+    body{
+        background-color: pink;
+    }
+    
+#topbutton{
+    grid-column: 3;
+    grid-row: 3;
+
+}
