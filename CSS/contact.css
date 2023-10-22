@@ -1,51 +1,98 @@
-.nav ul{
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
+* {
+  font-family: "Nunito", sans-serif;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
 }
 .nav a {
-    margin: 1rem;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    
- }
-
- .nav a:hover {
-    color: aqua;
- }
- #form{
-    text-align: center;
- }
- body{
-    background-color: rgb(222, 76, 105);
- }
- #input{
-    padding: 10px;
-    border-radius: 9px;
- }
- #text{
-    background-color: pink;
- }
- #text{
-    padding: 10px;
-    border-radius: 9px;
- }
- h3{
-    color: aliceblue;
- }
- .paragraph{
-    font-size: large;
-    color: aliceblue;
- }
- h2{
-    color: aliceblue;
- }
- /* media query */
-@media screen and (max-width:700px) {
-    body{
-        background-color: cyan;
-    }
-    
+  margin: 1rem;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
- 
+
+.nav a:hover {
+  color: red;
+}
+#form {
+  text-align: center;
+  /* max-width: 500px; */
+  /* margin-left: auto;
+  margin-right: auto; */
+  width: 100%;
+}
+
+#input {
+  padding: 10px;
+  border-radius: 9px;
+}
+
+#text {
+  padding: 10px;
+  border-radius: 9px;
+  width: 100%;
+  border: none;
+}
+h3 {
+  color: black;
+  font-size: 14px;
+  text-align: left;
+}
+.paragraph {
+  font-size: large;
+  color: black;
+}
+h2 {
+  color: black;
+}
+/* media query */
+@media screen and (max-width: 700px) {
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    padding-left: auto;
+    padding-right: auto;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 60px;
+  }
+  .img {
+    max-width: 300px;
+    border-radius: 20px;
+  }
+
+  .contact_us {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: auto;
+    padding-right: auto;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.container {
+  display: flex;
+  padding-top: 10%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+  min-height: 100%;
+  gap: 100px;
+  width: 100%;
+}
+
+.contact_us {
+  width: 100%;
+}
+.contact_us img {
+  max-width: 400px;
+  border-radius: 20px;
+}
